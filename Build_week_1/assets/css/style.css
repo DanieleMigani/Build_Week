@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+html, body{
+    background-image:url(/Build_week_1/assets/img/bg.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin: auto;
+    padding-left: 3em;
+    
+}
+h1{
+    padding-top: 1em;
+    line-height: 1.0em;
+    font-size: 4em;
+   
+}
+span{
+    font-size: 0,2em;
+    font-weight: 100;
+    
+}
+h3{
+    color: #c2128d;
+}
+strong{
+    color: white
+}
+section{
+    font-family: sans-serif;
+    color: rgb(230, 228, 228);
+}
+#logo{
+    width: 10%;
+    padding-top: 2em;
+}
+button{
+    background-color:#00ffff;
+    -webkit-box-shadow: inset 1px -50px 0px -100px #00FFFF,0px -1px 44px 3px #00FFFF;
+    -moz-box-shadow: inset 1px -50px 0px -100px #00FFFF,0px -1px 44px 3px #00FFFF;
+    -o-box-shadow: inset 1px -50px 0px -100px #00FFFF,0px -1px 44px 3px #00FFFF;
+    box-shadow: inset 1px -50px 0px -100px #00FFFF,0px -1px 44px 3px #00FFFF;
+    position: absolute;
+    right: 80px;
+    width: 170px;
+    height: 50px;
+    border: transparent;
+    font-family: 'Outfit', sans-serif;
+    bottom: 17px;
+    
+    
+  
+}
+footer{
+    padding-top: 3.0em;
+}
+bold{
+        color:#0b113b;
+        font-weight: bold;
+        
+}

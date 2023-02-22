@@ -44,6 +44,32 @@ section{
     padding-top: 2em;
 }
 
+button{
+    background-color:#00ffff;
+    -webkit-box-shadow: inset 1px -50px 0px -100px #00FFFF,0px -1px 44px 3px #00FFFF;
+    -moz-box-shadow: inset 1px -50px 0px -100px #00FFFF,0px -1px 44px 3px #00FFFF;
+    -o-box-shadow: inset 1px -50px 0px -100px #00FFFF,0px -1px 44px 3px #00FFFF;
+    box-shadow: inset 1px -50px0px -100px #00FFFF,0px -1px 44px 3px #00FFFF;
+    position: absolute;
+    right: 80px;
+    width: 170px;
+    height: 50px;
+    border: transparent;
+    font-family: 'Outfit', sans-serif;
+    bottom: 17px;
+    margin-right: 20em;
+}
+
+footer{
+    padding-top: 3.0em;
+}
+
+bold{
+        color:#0b113b;
+        font-weight: bold;
+        
+}
+
 a{
     text-decoration: none;
 }
@@ -59,59 +85,34 @@ a{
     margin: 20px;
   }
   
-
+  #question-number {
+    margin-bottom: 10px;
+  }
   
   #answers {
-    display: grid;
-    width:100%;
-    justify-content: center;
-    flex-wrap: wrap;
-     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .answer {
-    display: flex;
+    display: block;
     margin: 10px auto;
-    padding: 20px;
-    width: 300px;
+    padding: 10px;
+    width: 200px;
     text-align: center;
-    border: 2px solid white;
-    border-radius: 50px;
+    border: 2px solid #333;
+    border-radius: 10px;
     cursor: pointer;
-    background: transparent;
-    color: white;
-    justify-self: stretch;
-    justify-content: center;
-    flex-wrap: wrap;
-    
   }
-
-    #porco {
-        display: flex;
-        flex-wrap: wrap;
-        grid-gap: 40px;
-    }
-    
-    #porca{
-        display: flex;
-        flex-wrap: wrap;
-        grid-gap: 40px;
-         
-    }
-    
+  
+  
   #timer {
     margin-top: 20px;
   }
 
-  footer{
-    
-    
-    
-  }
-  #question-number {
-    
-    position: fixed;
-    bottom: 0em;
-    text-align: center;
 
-  }
+
+
+
+  

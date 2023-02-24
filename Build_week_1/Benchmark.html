@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/Benchmark.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/ForAll.css" />
+    <title>Question-Team1</title>
+</head>
 
-    <title></title>
-    <title></title>
-  </head>
-  <body>
-    <header>
-      <div>
-        <img id="logo" src="assets/img/epicode_logo.png" alt="logo del blog" />
-      </div>
-      
-      
-  
+<body>
+    <header id="HeaderBenchmark">
+        <img id="logo" src="assets/img/epicode_logo.png" />
+        <div>
+
+        <div id="app"></div>
+          <p id="seconds">SECONDS</p>
+          <p id="remaining">REMAINING</p>
+        </div>
+        
     </header>
-
     <div id="quiz">
-      <h1>Domanda 1</h1>
-
-      <div id="answers">
-        <div id="porca">
-          <button class="answer" onclick="checkAnswer(true)"></button>
-          <button class="answer" onclick="checkAnswer(false)"></button>
+        <h1 id="question"></h1>
+        <div id="boxes">
+            <div id="answers"></div>
         </div>
-        <div id="porco">
-          <button class="answer" onclick="checkAnswer(false)"></button>
-          <button class="answer" onclick="checkAnswer(false)"></button>
-        </div>
-      </div>
-      <div id="timer">
-        Tempo rimanente: <span id="timer-value">30</span> secondi
-      </div>
-    
     </div>
-    <footer>
-      <div id="question-number">
-        QUESTION 1 /10
-      </div>
+    <footer id="footerBenchmark">
+        <div class="reference">
+            <p id="progressText" class="displayBen">
+                QUESTION <span id="counter"> </span> <span id="pink">/10</span>
+            </p>
+        </div>
     </footer>
-    
-    <script src="assets/js/Benchmark.js"></script>
-  </body>
+</body>
+<script src="assets/js/Benchmark.js"></script>
+
 </html>

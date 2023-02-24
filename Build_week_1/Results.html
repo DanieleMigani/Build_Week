@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/ForAll.css" />
+    <title>Results-team1</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/epicode_logo.png" alt="Logo-Epicode" id="logo" />
+    </header>
+    <main id="Results-main">
+        <div id="divResuls1">
+            <h1 class="h1">Results</h1>
+            <p>The summary of your answers:</p>
+        </div>
+        <div id="Results-container">
+            <div id="Results-leftDiv">
+                <p class="firstP">Correct</p>
+                <p id="outcome-positive"></p>
+                <div id="Correct-answers"></div>
+            </div>
+            <div id="Result-centralDiv">
+                <div class="graphic">
+                    <canvas id="pieChart"></canvas>
+                    <div id="inside_canvas">da sostituire con js</div>
+                </div>
+            </div>
+
+            <div id="Results-rightDiv">
+                <p class="firstP">Wrong</p>
+                <p id="outcome-negative"></p>
+                <div id="Wrong-answers "></div>
+            </div>
+        </div>
+    </main>
+    <footer id="Results-footer">
+        <a href="feedback.html" id="anchorFooter">RATE US</a>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+<script src="assets/js/Results.js"></script>
+
+</html>
